@@ -2,7 +2,7 @@ name: refresh-resolvers
 
 on:
   schedule:
-    - cron: "0 */20 * * *"
+    - cron: "0 0 1 * *"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 jobs:
